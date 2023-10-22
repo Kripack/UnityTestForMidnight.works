@@ -5254,8 +5254,12 @@ MonoBehaviour:
   damage: 20
   impactForce: 150
   fireRate: 17
+  recoilAmount: 0.04
+  recoilHorizontal: 0
+  recoilVertical: 0.1
   singleShotMode: 0
   magazine: 200
+  ammo: 0
   fpsCam: {fileID: 0}
   muzzleFlash: {fileID: 3801811868951428209}
   impactEffect: {fileID: 100002, guid: 3b1513bcb86426b4795879be6a128ed7, type: 3}
@@ -5265,10 +5269,11 @@ MonoBehaviour:
   audioBulletShells: {fileID: 8300000, guid: 01d5f944020259248b89cdad55173949, type: 3}
   audioReload: {fileID: 8300000, guid: 3c5c1d4d7b9307c458890a4beb12e4ae, type: 3}
   inventory: {fileID: 0}
-  ammo: 0
   slots: []
   requiredAmmoType: 3
   magazineInfo: {fileID: 0}
+  firstPersonCamera: {fileID: 0}
+  thirdPersonCamera: {fileID: 0}
 --- !u!95 &8440883696975404604
 Animator:
   serializedVersion: 5
